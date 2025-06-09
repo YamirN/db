@@ -18,7 +18,8 @@
 --
 -- Table structure for table `boleta_electronicas`
 --
-
+CREATE SCHEMA IF NOT EXISTS TIENDA_ZAPATOS;
+USE TIENDA_ZAPATOS;
 DROP TABLE IF EXISTS `boleta_electronicas`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -871,3 +872,5 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-06-03  2:39:09
+
+COMMIT;
